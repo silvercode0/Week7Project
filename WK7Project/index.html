@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang=" en ">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>JS</title>
+    <h6>Rebecca</h6>
+  </head>
+  <body>
+    <h1>Connect 4</h1>
+    <h2 id="whoIsPlaying">
+      The current player is: Player <span id="curPlayer">1</span>
+    </h2>
+    <h3 id="whosTurn"></h3>
+    <h4 class="player-one">
+      PLAYER 1 :
+      <span
+        ><input
+          class="player1Name"
+          type="text"
+          placeholder="Enter Name"
+        /><button class="submit1Name">enter</button></span
+      >
+    </h4>
+    <h3 class="player-two">
+      PLAYER 2 :
+      <span
+        ><input
+          type="text"
+          class="player2Name"
+          placeholder="Enter Name"
+        /><button class="submit2Name">enter</button>
+        <button class="computerName">No Player 2</button>
+      </span>
+      <button id="restartBtn" placeholder="restart">restart</button>
+    </h3>
+
+    <!-- <section id="first_section" class="first_section">
+      <input
+        type="text"
+        placeholder="Nom du premier joueur"
+        id="firsttext"
+      /><br />
+    </section>
+    <p></p>
+    <section id="second_section" class="second_section">
+      <input type="text" placeholder="Enter Name" id="secondtext" /><br />
+    </section>
+
+    <section id="button">
+      <button type="button" id="second_button">Suivant ></button>
+    </section> -->
+
+    <div class="grid">
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="taken"></div>
+      <div class="taken"></div>
+      <div class="taken"></div>
+      <div class="taken"></div>
+      <div class="taken"></div>
+      <div class="taken"></div>
+      <div class="taken"></div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
